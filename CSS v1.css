@@ -20,7 +20,12 @@ body.mx{
   position: relative;
   z-index: 1;
 }
-
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--ink);font-family:var(--sans);overflow-x:hidden;cursor:none}
