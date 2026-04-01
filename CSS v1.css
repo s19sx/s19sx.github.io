@@ -406,7 +406,7 @@ textarea.fc{resize:vertical;min-height:90px}
 #kc:hover{background:var(--p2)}
 
 /* FOOTER */
-footer{background:#000;border-top:2px solid var(--acc);padding:56px 24px;text-align:center; width:100%}
+footer{background:#000;border-top:2px solid var(--acc);padding:56px 24px;text-align:center; width:100%;}
 .go{font-family:var(--px);font-size:clamp(22px,6vw,56px);color:var(--acc);text-shadow:0 0 30px rgba(255,59,139,.7),4px 4px 0 rgba(255,59,139,.22);animation:gofl 3s step-end infinite;display:block;margin-bottom:12px}
 @keyframes gofl{0%,94%,100%{opacity:1}95%{opacity:0}96%{opacity:1}97%{opacity:0}98%{opacity:1}99%{opacity:0}}
 .gos{font-family:var(--mono);font-size:14px;color:var(--muted);margin-bottom:32px}
