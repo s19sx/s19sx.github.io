@@ -16,7 +16,11 @@ body.mx{
   --ink:#00ff41;--muted:#006620;--dim:#003310;
   --p:#00ff41;--p2:#00ff88;--p3:#88ffbb;
   --acc:#00ffcc;--acc2:#88ffe4;--teal:#00ff41;--yellow:#00ff41;
+  main, body > *:not(#ldr):not(#hud):not(nav):not(#cur):not(#cur2):not(#cur3):not(#cvs) {
+  position: relative;
+  z-index: 1;
 }
+
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--ink);font-family:var(--sans);overflow-x:hidden;cursor:none}
