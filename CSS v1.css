@@ -195,7 +195,9 @@ nav{position:fixed;top:46px;left:0;right:0;z-index:799;display:flex;justify-cont
 @media(max-width:600px){.ni{font-size:6px;padding:8px 8px}}
 
 /* SECTIONS */
-section{min-height:100vh;padding:110px 28px 80px;max-width:1160px;margin:0 auto;position:relative;z-index:1}
+section{min-height:100vh;padding:110px 28px 80px;max-width:1160px;margin:0 auto;position:relative;z-index:1 width: 100%;      
+  box-sizing: border-box;
+}}
 .sh{font-family:var(--px);font-size:9px;color:var(--p2);margin-bottom:8px;text-shadow:var(--gp)}
 .sh::before{content:'// ';color:var(--dim)}
 h2{font-family:var(--px);font-size:clamp(13px,3vw,22px);color:var(--ink);margin-bottom:54px;line-height:1.9}
